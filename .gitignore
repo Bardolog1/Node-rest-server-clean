@@ -1,0 +1,136 @@
+# Git Ignore files and folders
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpetas generadas por sistemas de construcción
+/build/
+/node_modules/
+/bower_components/
+/dist/
+/out/
+/.idea/
+/.vscode/
+/.gradle/
+/.cache/
+/.sass-cache/
+/.bundle/
+/.vagrant/
+
+# Archivos de compilación o ejecución
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.log.*
+*.swp
+*.out
+*.aux
+*.bbl
+*.blg
+*.gz
+
+# Entornos específicos de desarrollo
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+.env.local
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/coverage/
+/.nyc_output/
+/coverage/
+.jest
+*.sublime-project
+*.sublime-workspace
+
+# Editor/IDE configuraciones
+/.idea
+/.vscode
+*.sublime-workspace
+*.sublime-project
+
+# Dependencias y paquetes
+package-lock.json
+yarn.lock
+composer.lock
+/vendor/
+
+# Archivos de construcción de Docker
+.dockerignore
+Dockerfile*
+!Dockerfile*.example
+
+# Archivos de configuración de herramientas de CI/CD
+.travis.yml
+.circleci/
+gitlab-ci.yml
+
+# Dependencias específicas de tecnología
+Gemfile.lock
+Gemfile.local
+Pipfile.lock
+npm-debug.log*
+
+# Archivos de configuración del entorno
+.env
+
+# Archivos de configuración de IDE específicos
+.idea/
+.vscode/
+.sublime-workspace
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+*.settings/
+
+# Logs y archivos temporales
+logs/
+*.log
+*.swp
+*.tmp
+*.tmp.*
+*.bak
+
+# Documentación generada
+/doc/
+/docs/
+/docgen/
+
+# Archivos de compilación de Android
+/build/
+/local.properties
+
+# Android Studio
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+.idea/workspace.xml
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+*.xcworkspace
+!default.podspec
+!Podfile.lock
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+/.metadata
+ 
