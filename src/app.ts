@@ -1,14 +1,10 @@
-(()=>{
+import { Server } from "./presentation/server";
+(() => {
     main();
-})()
+})();
 
-
-
-async function main(){
-
-//TODO: await bade de datos
-
-//TODO: inicio del server
-
-console.log('Server is running on port 3000');
+async function main() {
+    new Server({
+        port: 8080
+    }).start();
 }
