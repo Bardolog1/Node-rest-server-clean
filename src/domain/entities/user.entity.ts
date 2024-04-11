@@ -12,8 +12,6 @@ export class UserEntity{
         
     ){}
     
-    //Definir las propiedades de la entidad
-     
         
     
     
